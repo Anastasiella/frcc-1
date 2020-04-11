@@ -1,0 +1,73 @@
+h1 {
+    font-style: oblique;
+    text-align: center;
+}
+div {
+    background-color: rgba(255, 255, 20, 0.7); 
+    margin-left: 100px;
+        margin-right: 100px;
+        padding: 1px;
+        margin-bottom: 20px;
+}
+figcaption {
+    background-color: tomato;
+    margin-right: 540px;
+    margin-left: 540px;
+}
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Royal_Coat_of_Arms_of_the_United_Kingdom_%28Both_Realms%29.svg/1920px-Royal_Coat_of_Arms_of_the_United_Kingdom_%28Both_Realms%29.svg.png);
+    text-align: center;
+}
+main {
+    font-style: italic;
+    padding-top: 20px;
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 40px;
+    text-indent: 1.5em;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+ul {
+    text-align: justify;
+}
+    li {
+        font-weight: 700;
+        text-align: center;
+        text-decoration: underline;
+    }
+    img {
+        border: 5px solid;
+        border-color: cadetblue;
+        border-radius: 40%;
+    }
+    article {
+        background-color: white;
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-right: 70px;
+        padding-left: 40px;
+        padding-bottom: 60px;
+        text-align: justify;
+        border: 3px solid;
+        border-color: rgb(172, 164, 124)
+
+    }
+    footer {
+        background-color: rgba(255, 255, 20, 0.9);
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 5px;
+    }
+    .bordered {
+        border: 3px solid;
+        border-color: rgb(255, 217, 0);
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
