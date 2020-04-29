@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Students' questionnaire</title>
+</head>
+<body class="container">
+    <header class="container-head">
+        <h1>Are you sure about your future?</h1>
+        <p class="h1">Many people don't know who do they want to become almost whole their life and this problem we need to start solving from our childhood.</p>
+    </header>
+<form class="container-body">
+    <div class="form-group">
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label id="age-label" for="age">Age:</label>
+      <input type="number" min="16" max="45" id="number" name="age" class="form-control" placeholder="Age">
+    </div>
+    <div class="form-group">
+      <label id="email" for="email">E-mail</label>
+      <input type="email" id="email" name="email" class="form-control" placeholder="E-mail">
+    </div>
+    <div class="form-group">
+      <label id="grade" for="grade">Which grade are you now?</label>
+      <input type="number" min="1" max="5" id="number" name="grade" class="form-control" placeholder="Which grade">
+    </div>
+    <div class="form-group">
+      <p>Which professional field are you interested in?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select current field</option>
+          <option value="IT">Computers and Technology</option>
+          <option value="Health">Health Care and Allied Health</option>
+          <option value="Education">Education and Social Services</option>
+          <option value="Trades">Trades and Transportation</option>
+          <option value="Management">Management, Business, and Finance</option>
+          <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <p>Now let's talk about your skills and personal qualities.</p>
+        <label for="checkbox">Choose what describes you better:</label>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Public"> Public speaking</p>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Flexibility"> Flexibility</p>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Teamwork"> Teamwork</p>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Communication"> Communication</p>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Leadership"> Leadership</p>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Teamwork"> Time Management</p>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Communication"> Creativity and imagination</p>
+          <p><input class="input-checkbox" type="checkbox" name="a" value="Leadership"> Confidence</p>
+    </div>
+<hr style="width: 99%"/>
+    <div class="form-group">
+      <p>How do you think work of future will change?</p>
+        <textarea class="form-control" id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+    </div>
+    <div><button type="submit" id="submit">Submit</button></div>
+</form>
+<footer class="container-footer">Public questions for everyone. NN &trade;</footer>
+</body>    
+</html>
